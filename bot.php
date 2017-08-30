@@ -19,8 +19,8 @@ if (!is_null($events['events'])) {
 			// Get replyToken
 			$replyToken = $event['replyToken'];
 			// Ask Pandora 
-			$answer = check_new_message();
-			
+			//$answer = check_new_message();
+			$answer = "API OK";
 			// Build message to reply back
 			$messages = [
 				'type' => 'text',
