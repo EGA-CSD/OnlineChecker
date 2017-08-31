@@ -9,7 +9,7 @@
     $begin = strpos($folder,' u="') + strlen(' u="');
     $end = strpos($folder, '" name="');
     $num_msg = substr($folder, $begin, $end-$begin);
-    return "You've got ".$num_msg." new emails"
+    return "You've got ".$num_msg." new emails";
   }
   
 ?>  
