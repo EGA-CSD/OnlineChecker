@@ -1,5 +1,5 @@
 <?php
-
+include_once "checkNewEmail.php";
 $access_token = 'MCpDDtdYFWUXTtuiWjI+VzGLNS2N+SPJiRqwUgNGgyV6r5cps1d0nJekkBtB9fd05HJ2mMVx88JCP0uCYGiLmvbLqT8ShjDeWi5q1AuCSjI+DpM0mVSjEUc8TEhIyMJhVBuKCsms40q+ejD2DmhIDQdB04t89/1O/w1cDnyilFU=';
 
 // Get POST body content
