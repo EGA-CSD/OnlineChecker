@@ -1,4 +1,5 @@
 <?php
+  include_once "checkNewEmail.php";
   function getToken($account, $password, $url){
     //$password = "Acho08mkr";
     //$account = "narongsak.mala@ega.or.th";
